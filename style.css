@@ -1,0 +1,32 @@
+
+#board {
+    padding-top: 3em;
+    text-align: center;
+}
+.row > div {
+    height: 100px;
+    width: 100px;
+    float: left;
+   
+}
+.row {
+    clear: both;
+    margin: 0, auto;
+    width: 302px;
+}
+.top {
+    border-bottom: 1px solid black;
+}
+.bottom {
+    border-top: 1px solid blue;
+}
+.left {
+    border-right: 1px solid pink;
+}
+.right {
+    border-left: 1px solid red;
+}
+div:hover {
+    cursor: pointer;
+    color: turquoise;
+}
