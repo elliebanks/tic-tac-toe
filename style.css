@@ -1,17 +1,15 @@
-
 #board {
     padding-top: 3em;
     text-align: center;
 }
 .row > div {
+    float: left;
     height: 100px;
     width: 100px;
-    float: left;
-   
 }
 .row {
     clear: both;
-    margin: 0, auto;
+    margin: 0 auto;
     width: 302px;
 }
 .top {
